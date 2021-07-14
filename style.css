@@ -1,0 +1,109 @@
+
+
+/*---------
+--- header section styling description start */
+
+.header-section{
+    display: flex;
+    background-color: blue;
+    padding: 30px;
+    margin: 20px;
+}
+.header-description h1{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+#watching-live{
+    color: white;
+    font-weight: 600;
+    background-color: tomato;
+    
+}
+
+/*--------
+-----  header section styling description end */
+
+.player-info-part01{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
+.player-img{
+    text-align: center;
+   
+}
+.player-details{
+    margin-left: 10px;
+
+}
+.player-info-part02{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 50px;
+}
+
+.player-img img{
+    width: 300px;
+    height: 256px;
+    flex-grow: 0;
+    left: 0px;
+    top: 0px;
+    flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.player{
+    width: 330px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+
+.live-match-section{
+    display: flex;
+    margin-top: 90px;
+    margin-left: 110px;
+    margin-right: 150px;
+    
+}
+/* .detail{
+    position: absolute;
+    display: none;
+    top: 0;
+}
+.frame{
+    position: relative;
+} */
+.description{
+    width: 469px;
+    height: 309px;
+}
+span{
+    width: 404px;
+    height: 113px;
+}
+.match-pic{
+    margin-left: 60px;
+}
+
+/* footer part starts */
+
+
+.footer-image-02{
+    width: 173.81px;
+    height: 35.81px;
+}
+.footer-part1{
+    text-align: center;
+    margin-top: 170px;
+}
+/* footer part ends */
