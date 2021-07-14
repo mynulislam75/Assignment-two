@@ -25,7 +25,36 @@
 /*--------
 -----  header section styling description end */
 
+
+/*----------
+all player information starts
+-------------*/
+
 .player-info-part01{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
+.player-info-part02{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
+.player-info-part03{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
+.player-info-part04{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-top: 40px;
@@ -39,16 +68,7 @@
 }
 .player-details{
     margin-left: 10px;
-
 }
-.player-info-part02{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-top: 40px;
-    margin-left: 45px;
-    margin-right: 50px;
-}
-
 .player-img img{
     width: 300px;
     height: 256px;
@@ -56,9 +76,9 @@
     left: 0px;
     top: 0px;
     flex: none;
-order: 0;
-flex-grow: 0;
-margin: 16px 0px;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
 }
 .player{
     width: 330px;
@@ -68,42 +88,90 @@ margin: 16px 0px;
 
 }
 
+/*----------
+all player information ends
+-------------*/
+
+
+
+/* watching live match section style starts */
+
 .live-match-section{
     display: flex;
     margin-top: 90px;
     margin-left: 110px;
     margin-right: 150px;
-    
-}
-/* .detail{
-    position: absolute;
-    display: none;
-    top: 0;
-}
-.frame{
-    position: relative;
-} */
+    }
 .description{
     width: 469px;
     height: 309px;
 }
-span{
+.description h1{
+    width: 469px;
+    height: 120px;
+    font-weight: 800;
+}
+.description-text{
     width: 404px;
     height: 113px;
+}
+.description-text2{
+    width: 173px;
+    height: 44px;
 }
 .match-pic{
     margin-left: 60px;
 }
 
-/* footer part starts */
+/*-------------
+ start of extra design part of giving task in watching match section
+ -------------*/
+
+.photo-frame{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(44, 11, 11);
+    border-radius: 5px;
+    position: relative;
+
+    
+}
+.photo-detail{
+    width: 500px;
+    height: 350px;
+    top: 0px;
+    position: absolute;
+    display: none;
+
+}
+.photo-frame:hover .photo-detail{
+    display: block;
+    background-color: green;
+}
+
+/*-------------
+ end of extra design part of giving task in watching match section
+ -------------*/
 
 
-.footer-image-02{
-    width: 173.81px;
-    height: 35.81px;
+/*-------------
+ footer part starts
+ ---------------- */
+
+.footer-section{
+text-align: center;
+margin-top: 200px;
+margin-bottom: 70px;
 }
-.footer-part1{
-    text-align: center;
-    margin-top: 170px;
+.footer-img img{
+    width: 483.7px;
+    height: 110px;
 }
-/* footer part ends */
+.social-media-icon img{
+    width: 32px;
+    height: 32px;
+}
+
+/*-------------
+ footer part starts
+ ---------------- */
