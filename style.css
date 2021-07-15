@@ -1,4 +1,7 @@
 
+body{
+    font-family: font-family: 'Poppins', sans-serif;;
+}
 
 /*---------
 --- header section styling description start */
@@ -128,8 +131,8 @@ all player information ends
 .live-match-section{
     display: flex;
     margin-top: 90px;
-    margin-left: 110px;
-    margin-right: 150px;
+    margin-left: 50px;
+    margin-right: 40px;
     }
 .description{
     width: 469px;
@@ -213,15 +216,16 @@ all player information ends
      display: grid;
      grid-template-columns: repeat(2,1fr);
      margin-top: 150px;
-     margin-left: 40px;
+     margin-left: 60px;
+     background-color: rgb(145, 122, 145);
  }
  .form-part{
      width: 550px;
+     background-color: turquoise;
  }
  .card-section{
      display: flex;
  }
-
 /*-------------
  footer part starts
  ---------------- */
@@ -244,9 +248,29 @@ margin-bottom: 70px;
  footer part starts
  ---------------- */
 
- @media (max-width:700px) {
-    .player-info-part01{
-    flex-direction: column;
-     
+ @media only screen and (max-width: 600px){
+
+.header-section{ flex-direction:column;}
+.live-match-section{display: grid;
+    grid-template-columns: repeat(1,1fr);}
+
+.player-info-part01{display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+.player-info-part02{display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+.player-info-part03{display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+.player-info-part04{display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .extra-part{
+    display: grid;
+    grid-template-columns: repeat(1,1fr); 
+   }
+.footer-section{text-align: center;}
+
+
  }
-}
