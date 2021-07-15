@@ -22,6 +22,16 @@
     
 }
 
+.header-animation{
+transition: width 10s ,transform 10s;
+}
+
+.header-animation:hover{
+    width: 500px;
+    transform: rotate(15deg);
+    border-radius: 100px;
+}
+
 /*--------
 -----  header section styling description end */
 
@@ -36,7 +46,7 @@ all player information starts
     margin-top: 40px;
     margin-left: 45px;
     margin-right: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
 }
 .player-info-part02{
     display: grid;
@@ -44,7 +54,7 @@ all player information starts
     margin-top: 40px;
     margin-left: 45px;
     margin-right: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
 }
 .player-info-part03{
     display: grid;
@@ -52,7 +62,7 @@ all player information starts
     margin-top: 40px;
     margin-left: 45px;
     margin-right: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
 }
 .player-info-part04{
     display: grid;
@@ -130,7 +140,6 @@ all player information ends
 .photo-frame{
     width: 200px;
     height: 200px;
-    border: 3px solid rgb(44, 11, 11);
     border-radius: 5px;
     position: relative;
 
@@ -144,9 +153,13 @@ all player information ends
     display: none;
 
 }
+#photos-header{
+    padding: 10px;
+    margin: 10px;
+}
 .photo-frame:hover .photo-detail{
     display: block;
-    background-color: green;
+    background-image: linear-gradient(rgb(192, 227, 241) ,rgba(164, 221, 164, 0.925));
 }
 
 /*-------------
