@@ -2,6 +2,17 @@
 
 /*---------
 --- header section styling description start */
+.header{
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+
 
 .header-section{
     display: flex;
@@ -15,11 +26,18 @@
     font-weight: 600;
 
 }
-#watching-live{
+.watching-live{
     color: white;
     font-weight: 600;
     background-color: tomato;
+    border-radius: 2px;
+    border: 5px;
+    box-shadow: 1px 1px 1px whitesmoke;
+    background-image: linear-gradient(rgb(216, 145, 14),rgb(148, 148, 206) );
     
+}
+.watching-live:hover{
+    background-color: red;
 }
 
 .header-animation{
@@ -39,6 +57,7 @@ transition: width 10s ,transform 10s;
 /*----------
 all player information starts
 -------------*/
+
 
 .player-info-part01{
     display: grid;
@@ -132,10 +151,31 @@ all player information ends
 .match-pic{
     margin-left: 60px;
 }
+#paragraph{
+  color: rgba(255, 255, 255, 0.986);
+  font-weight: 400;
+  background-image: linear-gradient(orange ,cyan);
+  width: 110px;
+}
 
 /*-------------
  start of extra design part of giving task in watching match section
  -------------*/
+
+ .ul-portion{
+     display: none;
+     position: absolute;
+     background-color: rgb(156, 236, 76);
+     padding: 15px;
+     width: 40px;
+     height: 60px;
+     margin: 5px;
+     border-radius: 5px;
+     box-shadow: 2px 3px yellow;
+ }
+.nested-nav:hover .ul-portion{
+    display: block;
+}
 
 .photo-frame{
     width: 200px;
@@ -167,6 +207,21 @@ all player information ends
  -------------*/
 
 
+ /* extra section */
+
+ .extra-part{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     margin-top: 150px;
+     margin-left: 40px;
+ }
+ .form-part{
+     width: 550px;
+ }
+ .card-section{
+     display: flex;
+ }
+
 /*-------------
  footer part starts
  ---------------- */
@@ -188,3 +243,10 @@ margin-bottom: 70px;
 /*-------------
  footer part starts
  ---------------- */
+
+ @media (max-width:700px) {
+    .player-info-part01{
+    flex-direction: column;
+     
+ }
+}
