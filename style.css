@@ -1,10 +1,12 @@
-
+/* using google fonts css link in body */
 body{
-    font-family: font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
 
+
 /*---------
---- header section styling description start */
+--- starting header section style */
+
 .header{
    
 }
@@ -53,12 +55,13 @@ transition: width 10s ,transform 10s;
     border-radius: 100px;
 }
 
-/*--------
------  header section styling description end */
+/*----------
+-end of  header section style
+------------ */
 
 
 /*----------
-all player information starts
+Style of all player informations & players
 -------------*/
 
 
@@ -120,13 +123,15 @@ all player information starts
 
 }
 
-/*----------
-all player information ends
--------------*/
+/*------------------
+End of the style of all player information with players
+--------------------*/
 
 
 
-/* watching live match section style starts */
+/*--------
+ style of live match section description & match pic
+ ---------- */
 
 .live-match-section{
     display: flex;
@@ -152,7 +157,7 @@ all player information ends
     width: 173px;
     height: 44px;
 } */
-.match-pic{
+.match-detail{
     margin-left: 8px;
     padding: 10px;
 }
@@ -162,9 +167,16 @@ all player information ends
   background-image: linear-gradient(orange ,cyan);
   width: 110px;
 }
+/*--------------
+ End of the style of live match section description
+ & match pic
+ ---------------- */
+
 
 /*-------------
- start of extra design part of giving task in watching match section
+ extra design style of live match section description
+ & match pic
+ 
  -------------*/
 
  .ul-portion{
@@ -208,12 +220,15 @@ all player information ends
 }
 
 /*-------------
- end of extra design part of giving task in watching match section
+ end of extra design style of
+ live match section description
+ & match pic 
  -------------*/
 
 
+
  /* --------
- extra section
+ more extra style section
  ------------ */
 
  /* .extra-part{
@@ -239,9 +254,13 @@ all player information ends
      height:400px;
      background-color: turquoise;
 }
+/*---------
+ Ends of more extra design style
+ ---------- */
+
 
 /*-------------
- footer part starts
+ footer section style starts
  ---------------- */
 
 .footer-section{
@@ -259,7 +278,7 @@ margin-bottom: 70px;
 }
 
 /*-------------
- footer part ends
+ footer section style ends
  ---------------- */
 
 
