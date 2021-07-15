@@ -138,6 +138,7 @@ all player information ends
     width: 469px;
     height: 309px;
 }
+/* }
 .description h1{
     width: 469px;
     height: 120px;
@@ -150,9 +151,10 @@ all player information ends
 .description-text2{
     width: 173px;
     height: 44px;
-}
+} */
 .match-pic{
-    margin-left: 60px;
+    margin-left: 8px;
+    padding: 10px;
 }
 #paragraph{
   color: rgba(255, 255, 255, 0.986);
@@ -210,22 +212,34 @@ all player information ends
  -------------*/
 
 
- /* extra section */
+ /* --------
+ extra section
+ ------------ */
 
- .extra-part{
+ /* .extra-part{
      display: grid;
      grid-template-columns: repeat(2,1fr);
      margin-top: 150px;
-     margin-left: 60px;
-     background-color: rgb(145, 122, 145);
- }
- .form-part{
-     width: 550px;
+     margin-left: 45px;
+     margin-right: 40px;
+     background-color: rgb(145, 122, 145); */
+ /* } */
+
+ .extra-part1{
+     width: 450px;
+     height:300px;
      background-color: turquoise;
+     margin-top:150px;
  }
  .card-section{
      display: flex;
  }
+.extra-partt1{
+    width: 550px;
+     height:400px;
+     background-color: turquoise;
+}
+
 /*-------------
  footer part starts
  ---------------- */
@@ -245,15 +259,24 @@ margin-bottom: 70px;
 }
 
 /*-------------
- footer part starts
+ footer part ends
  ---------------- */
 
- @media only screen and (max-width: 600px){
 
+ /*---------------------------
+  Create responsiveness for mobile devise starts
+  ---------------------------- */
+
+ @media only screen and (max-width: 600px)
+ 
+ {
+
+
+/* responsive header section */
 .header-section{ flex-direction:column;}
-.live-match-section{display: grid;
-    grid-template-columns: repeat(1,1fr);}
 
+
+/* responsive all players info- */
 .player-info-part01{display: grid;
     grid-template-columns: repeat(1,1fr);
    }
@@ -266,11 +289,30 @@ margin-bottom: 70px;
 .player-info-part04{display: grid;
     grid-template-columns: repeat(1,1fr);
    }
-   .extra-part{
+
+
+ /*responsive watching highlits match portion  */
+.live-match-section{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 100px;
+}
+
+
+/* responsive extra part of giving tasks */
+.extra-part{
     display: grid;
     grid-template-columns: repeat(1,1fr); 
+    margin-bottom: 250px;
    }
+
+
+   /* responsive footer */
 .footer-section{text-align: center;}
 
 
  }
+ 
+ /*---------------------------
+  End of responsiveness for mobile devise
+  ---------------------------- */
