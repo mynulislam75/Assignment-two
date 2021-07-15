@@ -143,20 +143,7 @@ End of the style of all player information with players
     width: 469px;
     height: 309px;
 }
-/* }
-.description h1{
-    width: 469px;
-    height: 120px;
-    font-weight: 800;
-}
-.description-text{
-    width: 404px;
-    height: 113px;
-}
-.description-text2{
-    width: 173px;
-    height: 44px;
-} */
+
 .match-detail{
     margin-left: 8px;
     padding: 10px;
@@ -230,15 +217,6 @@ End of the style of all player information with players
  /* --------
  more extra style section
  ------------ */
-
- /* .extra-part{
-     display: grid;
-     grid-template-columns: repeat(2,1fr);
-     margin-top: 150px;
-     margin-left: 45px;
-     margin-right: 40px;
-     background-color: rgb(145, 122, 145); */
- /* } */
 
  .extra-part1{
      width: 450px;
